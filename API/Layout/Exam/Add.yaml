@@ -1,0 +1,36 @@
+- name: Email details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Subject
+    dataType: string
+    required: false
+    length: 
+    label: Subject
+    column: 2
+  - fieldName: Body
+    dataType: string
+    required: false
+    length: 
+    label: Body
+    column: 2
+  - fieldName: SenderId
+    dataType: guid
+    required: false
+    length: 
+    label: Sender
+    column: 2
+    dataSource: User
+  - fieldName: RecipientId
+    dataType: guid
+    required: false
+    length: 
+    label: Recipient
+    column: 2
+    dataSource: User

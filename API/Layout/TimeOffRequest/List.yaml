@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StartDate
+      dataType: DateTime
+      label: Start Date
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: EndDate
+      dataType: DateTime
+      label: End Date
+      column: 4
+    - fieldName: EmployeeId
+      dataType: guid
+      required: false
+      label: Employee
+      column: 4
+      dataSource: Employee
+    - fieldName: LeaveId
+      dataType: guid
+      required: false
+      label: Leave
+      column: 4
+      dataSource: Leave
+filter:
+  fields:
+  - fieldName: StartDate
+    dataType: DateTime
+    label: Start Date
+    column: 4
+  - fieldName: EndDate
+    dataType: DateTime
+    label: End Date
+    column: 4

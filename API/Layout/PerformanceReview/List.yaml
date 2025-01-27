@@ -1,0 +1,47 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: EmployeeId
+      dataType: guid
+      label: Employee
+      column: 4
+      dataSource: Employee
+  cardDetail:
+    fields:
+    - fieldName: ReviewDate
+      dataType: datetime
+      label: Review Date
+      column: 4
+    - fieldName: Rating
+      dataType: numeric
+      label: Rating
+      column: 4
+    - fieldName: Comments
+      dataType: string
+      label: Comments
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: EmployeeId
+    dataType: guid
+    label: Employee
+    column: 4
+    dataSource: Employee
+  - fieldName: ReviewDate
+    dataType: datetime
+    label: Review Date
+    column: 4
+  - fieldName: Rating
+    dataType: numeric
+    label: Rating
+    column: 4

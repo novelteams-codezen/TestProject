@@ -1,0 +1,46 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Title
+      dataType: String
+      label: Title
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: DocumentTypeId
+      dataType: guid
+      label: Document Type
+      column: 4
+      dataSource: DocumentType
+    - fieldName: DocumentCategoryId
+      dataType: guid
+      label: Document Category
+      column: 4
+      dataSource: DocumentCategory
+    - fieldName: DocumentVersionId
+      dataType: guid
+      label: Document Version
+      column: 4
+      dataSource: DocumentVersion
+  cardStatus:
+    fields:
+    - fieldName: DocumentStatusId
+      dataType: guid
+      label: Document Status
+      column: 4
+      dataSource: DocumentStatus
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 4
+filter:
+  fields:
+  - fieldName: Title
+    dataType: String
+    label: Title
+    column: 4
+  - fieldName: DocumentTypeId
+    dataType: guid
+    label: Document Type
+    column: 4
+    dataSource: DocumentType

@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StartTime
+      dataType: datetime
+      label: Start Time
+      column: 4
+    - fieldName: EndTime
+      dataType: datetime
+      label: End Time
+      column: 4
+    - fieldName: Attendees
+      dataType: string
+      label: Attendees
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: Title
+    dataType: String
+    label: Title
+    column: 4
+  - fieldName: StartTime
+    dataType: datetime
+    label: Start Time
+    column: 4

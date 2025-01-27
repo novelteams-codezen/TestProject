@@ -1,0 +1,32 @@
+- name: Fee details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: StudentId
+    dataType: guid
+    required: false
+    label: Student
+    column: 2
+    dataSource: Student
+  - fieldName: FeeType
+    dataType: string
+    required: false
+    length: 100
+    label: Fee Type
+    column: 2
+  - fieldName: Amount
+    dataType: numeric
+    required: false
+    label: Amount
+    column: 2
+  - fieldName: DueDate
+    dataType: datetime
+    required: false
+    label: Due Date
+    column: 2

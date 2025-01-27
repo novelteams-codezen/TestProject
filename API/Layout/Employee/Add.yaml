@@ -1,0 +1,10 @@
+- name: Employee details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 4

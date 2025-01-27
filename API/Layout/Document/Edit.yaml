@@ -1,0 +1,40 @@
+- label: Document details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Title
+    dataType: string
+    required: false
+    length: 100
+    label: Title
+    column: 2
+  - fieldName: DocumentTypeId
+    dataType: guid
+    required: false
+    label: Document Type
+    column: 2
+    dataSource: DocumentType
+  - fieldName: DocumentCategoryId
+    dataType: guid
+    required: false
+    label: Document Category
+    column: 2
+    dataSource: DocumentCategory
+  - fieldName: DocumentVersionId
+    dataType: guid
+    required: false
+    label: Document Version
+    column: 2
+    dataSource: DocumentVersion
+  - fieldName: DocumentStatusId
+    dataType: guid
+    required: false
+    label: Document Status
+    column: 2
+    dataSource: DocumentStatus

@@ -1,0 +1,26 @@
+- name: Workspace details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 100
+    label: Name
+    column: 4
+- name: Audit details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created by
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated by
+    column: 2
+    dataSource: User

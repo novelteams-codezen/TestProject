@@ -1,0 +1,31 @@
+- name: Class details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: SemesterId
+    dataType: guid
+    required: false
+    label: Semester
+    column: 2
+    dataSource: Semester
+- name: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User

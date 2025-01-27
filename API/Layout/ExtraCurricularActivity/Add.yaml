@@ -1,0 +1,41 @@
+- label: Extra curricular activity details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    name: 50
+    label: Name
+    column: 2
+  - fieldName: Description
+    dataType: string
+    required: false
+    label: Description
+    column: 2
+- name: Activity audit information
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: Updated On
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

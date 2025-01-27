@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Percentage
+      dataType: Numeric
+      label: Percentage
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: Percentage
+    dataType: Numeric
+    label: Percentage
+    column: 4

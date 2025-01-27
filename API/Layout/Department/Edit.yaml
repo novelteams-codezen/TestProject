@@ -1,0 +1,32 @@
+- label: Department details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    name: Name
+    column: 2
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: Updated On
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

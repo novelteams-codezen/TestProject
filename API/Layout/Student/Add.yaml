@@ -1,0 +1,20 @@
+- name: Student details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 100
+    label: Name
+    column: 4
+  - fieldName: DateOfBirth
+    dataType: datetime
+    required: false
+    label: Date of birth
+    column: 2
+  - fieldName: AdmissionDate
+    dataType: datetime
+    required: false
+    label: Admission date
+    column: 2

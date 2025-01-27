@@ -1,0 +1,26 @@
+- label: Attendance details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    name: Name
+    column: 2
+  - fieldName: StudentId
+    dataType: guid
+    required: false
+    label: Student
+    column: 2
+    dataSource: Student
+  - fieldName: Date
+    dataType: datetime
+    required: false
+    label: Date
+    column: 2
+  - fieldName: Present
+    dataType: numeric
+    required: false
+    label: Present
+    column: 2

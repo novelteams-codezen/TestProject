@@ -1,0 +1,38 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Date
+      dataType: DateTime
+      label: Date
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StudentId
+      dataType: guid
+      label: Student
+      column: 4
+      dataSource: Student
+    - fieldName: Present
+      dataType: numeric
+      label: Present
+      column: 4
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created on
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: Date
+    dataType: DateTime
+    label: Date
+    column: 4
+  - fieldName: Present
+    dataType: numeric
+    label: Present
+    column: 4

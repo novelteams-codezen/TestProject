@@ -1,0 +1,40 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Subject
+      dataType: string
+      label: Subject
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: SenderId
+      dataType: guid
+      label: Sender
+      column: 4
+      dataSource: User
+    - fieldName: RecipientId
+      dataType: guid
+      label: Recipient
+      column: 4
+      dataSource: User
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: Subject
+    dataType: string
+    label: Subject
+    column: 4
+  - fieldName: SenderId
+    dataType: guid
+    label: Sender
+    column: 4
+    dataSource: User

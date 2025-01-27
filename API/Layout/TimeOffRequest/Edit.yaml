@@ -1,0 +1,32 @@
+- label: Time off request
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: EmployeeId
+    dataType: guid
+    required: false
+    label: Employee
+    column: 2
+    dataSource: Employee
+  - fieldName: StartDate
+    dataType: datetime
+    required: false
+    label: Start Date
+    column: 2
+  - fieldName: EndDate
+    dataType: datetime
+    required: false
+    label: End Date
+    column: 2
+  - fieldName: LeaveId
+    dataType: guid
+    required: false
+    label: Leave
+    column: 2
+    dataSource: Leave

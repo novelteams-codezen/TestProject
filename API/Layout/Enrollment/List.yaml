@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: CourseId
+      dataType: guid
+      label: Course
+      column: 4
+      dataSource: Course
+  cardDetail:
+    fields:
+    - fieldName: StudentId
+      dataType: guid
+      label: Student
+      column: 4
+      dataSource: Student
+    - fieldName: EnrollDate
+      dataType: datetime
+      label: Enroll Date
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: CourseId
+    dataType: guid
+    label: Course
+    column: 4
+    dataSource: Course
+  - fieldName: StudentId
+    dataType: guid
+    label: Student
+    column: 4
+    dataSource: Student
+  - fieldName: EnrollDate
+    dataType: datetime
+    label: Enroll Date
+    column: 4

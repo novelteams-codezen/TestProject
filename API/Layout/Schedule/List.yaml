@@ -1,0 +1,51 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: CourseId
+      dataType: guid
+      label: Course
+      column: 4
+      dataSource: Course
+  cardDetail:
+    fields:
+    - fieldName: StartTime
+      dataType: datetime
+      label: Start Time
+      column: 4
+    - fieldName: EndTime
+      dataType: datetime
+      label: End Time
+      column: 4
+    - fieldName: Days
+      dataType: string
+      label: Days
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: CourseId
+    dataType: guid
+    label: Course
+    column: 4
+    dataSource: Course
+  - fieldName: StartTime
+    dataType: datetime
+    label: Start Time
+    column: 4
+  - fieldName: EndTime
+    dataType: datetime
+    label: End Time
+    column: 4
+  - fieldName: Days
+    dataType: string
+    label: Days
+    column: 4

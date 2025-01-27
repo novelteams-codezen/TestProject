@@ -1,0 +1,43 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: BillingId
+      dataType: guid
+      label: Billing
+      column: 4
+      dataSource: Billing
+  cardDetail:
+    fields:
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 4
+    - fieldName: Date
+      dataType: datetime
+      label: Date
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: BillingId
+    dataType: guid
+    label: Billing
+    column: 4
+    dataSource: Billing
+  - fieldName: Amount
+    dataType: numeric
+    label: Amount
+    column: 4
+  - fieldName: Date
+    dataType: datetime
+    label: Date
+    column: 4

@@ -1,0 +1,25 @@
+- name: Academic year details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Year
+    dataType: numeric
+    required: false
+    label: Year
+    column: 2
+  - fieldName: StartDate
+    dataType: datetime
+    required: false
+    label: Start Date
+    column: 2
+  - fieldName: EndDate
+    dataType: datetime
+    required: false
+    label: End Date
+    column: 2

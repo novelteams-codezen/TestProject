@@ -1,0 +1,43 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: CourseId
+      dataType: guid
+      label: Course
+      column: 4
+      dataSource: Course
+    - fieldName: DueDate
+      dataType: datetime
+      label: Due date
+      column: 4
+    - fieldName: Weight
+      dataType: numeric
+      label: Weight
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created on
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated on
+      column: 4
+filter:
+  fields:
+  - fieldName: Title
+    dataType: string
+    label: Title
+    column: 4
+  - fieldName: CourseId
+    dataType: guid
+    label: Course
+    column: 4
+    dataSource: Course

@@ -1,0 +1,43 @@
+- name: Enrollment details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: StudentId
+    dataType: guid
+    required: false
+    label: Student
+    column: 2
+    dataSource: Student
+  - fieldName: CourseId
+    dataType: guid
+    required: false
+    label: Course
+    column: 2
+    dataSource: Course
+  - fieldName: EnrollDate
+    dataType: datetime
+    required: false
+    label: Enroll Date
+    column: 2
+- name: Audit info
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

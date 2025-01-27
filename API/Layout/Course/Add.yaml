@@ -1,0 +1,19 @@
+- name: Course details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: True
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: String
+    required: True
+    label: Code
+    column: 2
+  - fieldName: Credits
+    dataType: Numeric
+    required: True
+    label: Credits
+    column: 2

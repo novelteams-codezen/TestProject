@@ -1,0 +1,20 @@
+- label: Shift details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: False
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: StartTime
+    dataType: datetime
+    required: False
+    label: Start Time
+    column: 2
+  - fieldName: EndTime
+    dataType: datetime
+    required: False
+    label: End Time
+    column: 2

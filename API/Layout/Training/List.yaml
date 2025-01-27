@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Description
+      dataType: String
+      label: Description
+      column: 4
+    - fieldName: StartDate
+      dataType: Datetime
+      label: Start Date
+      column: 4
+    - fieldName: EndDate
+      dataType: Datetime
+      label: End Date
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: Datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: Datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: StartDate
+    dataType: Datetime
+    label: Start Date
+    column: 4
+  - fieldName: EndDate
+    dataType: Datetime
+    label: End Date
+    column: 4

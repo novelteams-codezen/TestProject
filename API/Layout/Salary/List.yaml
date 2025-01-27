@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: BaseSalary
+      dataType: numeric
+      label: Base Salary
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Bonus
+      dataType: numeric
+      label: Bonus
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: BaseSalary
+    dataType: numeric
+    label: Base Salary
+    column: 4
+  - fieldName: Bonus
+    dataType: numeric
+    label: Bonus
+    column: 4
+  - fieldName: CreatedOn
+    dataType: datetime
+    label: Created On
+    column: 4

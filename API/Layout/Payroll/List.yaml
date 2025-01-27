@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: EmployeeId
+      dataType: guid
+      label: Employee
+      column: 4
+      dataSource: Employee
+  cardDetail:
+    fields:
+    - fieldName: SalaryId
+      dataType: guid
+      label: Salary
+      column: 4
+      dataSource: Salary
+    - fieldName: BenefitsId
+      dataType: guid
+      label: Benefits
+      column: 4
+      dataSource: Benefits
+    - fieldName: StartDate
+      dataType: datetime
+      label: Start Date
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: EmployeeId
+    dataType: guid
+    label: Employee
+    column: 4
+    dataSource: Employee
+  - fieldName: StartDate
+    dataType: datetime
+    label: Start Date
+    column: 4

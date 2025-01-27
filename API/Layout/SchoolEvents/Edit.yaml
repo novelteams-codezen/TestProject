@@ -1,0 +1,32 @@
+- name: Event details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Title
+    dataType: string
+    required: false
+    length: 100
+    label: Title
+    column: 2
+  - fieldName: Description
+    dataType: string
+    required: false
+    length: 500
+    label: Description
+    column: 2
+  - fieldName: StartTime
+    dataType: datetime
+    required: false
+    label: Start Time
+    column: 2
+  - fieldName: EndTime
+    dataType: datetime
+    required: false
+    label: End Time
+    column: 2
+  - fieldName: Venue
+    dataType: string
+    required: false
+    length: 100
+    label: Venue
+    column: 2

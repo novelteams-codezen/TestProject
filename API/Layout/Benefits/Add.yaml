@@ -1,0 +1,43 @@
+- label: Basic information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: HealthInsurance
+    dataType: string
+    required: false
+    length: 50
+    label: Health Insurance
+    column: 2
+  - fieldName: RetirementPlan
+    dataType: string
+    required: false
+    length: 50
+    label: Retirement Plan
+    column: 2
+  - fieldName: PaidTimeOff
+    dataType: numeric
+    required: false
+    label: Paid Time Off
+    column: 2
+- label: Audit information
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

@@ -1,0 +1,26 @@
+- name: Semester details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: StartDate
+    dataType: datetime
+    required: false
+    label: Start Date
+    column: 2
+  - fieldName: EndDate
+    dataType: datetime
+    required: false
+    label: End Date
+    column: 2
+  - fieldName: AcademicYearId
+    dataType: guid
+    required: false
+    label: Academic Year
+    column: 2
+    dataSource: AcademicYear

@@ -1,0 +1,32 @@
+- name: Assignment details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Title
+    dataType: string
+    required: false
+    length: 100
+    label: Title
+    column: 2
+  - fieldName: CourseId
+    dataType: guid
+    required: false
+    label: Course
+    column: 2
+    dataSource: Course
+  - fieldName: DueDate
+    dataType: datetime
+    required: false
+    label: Due date
+    column: 2
+  - fieldName: Weight
+    dataType: numeric
+    required: false
+    label: Weight
+    column: 2

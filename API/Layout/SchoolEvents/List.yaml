@@ -1,0 +1,36 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Title
+      dataType: String
+      label: Title
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StartTime
+      dataType: DateTime
+      label: Start Time
+      column: 4
+    - fieldName: EndTime
+      dataType: DateTime
+      label: End Time
+      column: 4
+    - fieldName: Venue
+      dataType: String
+      label: Venue
+      column: 4
+  cardStatus: 
+filter:
+  fields:
+  - fieldName: Title
+    dataType: String
+    label: Title
+    column: 4
+  - fieldName: StartTime
+    dataType: DateTime
+    label: Start Time
+    column: 4
+  - fieldName: Venue
+    dataType: String
+    label: Venue
+    column: 4

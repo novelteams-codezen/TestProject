@@ -1,0 +1,38 @@
+- label: Employee details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: EmployeeId
+    dataType: guid
+    required: false
+    label: Employee
+    column: 2
+    dataSource: Employee
+  - fieldName: SalaryId
+    dataType: guid
+    required: false
+    label: Salary
+    column: 2
+    dataSource: Salary
+  - fieldName: BenefitsId
+    dataType: guid
+    required: false
+    label: Benefits
+    column: 2
+    dataSource: Benefits
+  - fieldName: StartDate
+    dataType: datetime
+    required: false
+    label: Start Date
+    column: 2
+  - fieldName: EndDate
+    dataType: datetime
+    required: false
+    label: End Date
+    column: 2

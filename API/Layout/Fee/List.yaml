@@ -1,0 +1,47 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: DueDate
+      dataType: datetime
+      label: Due Date
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StudentId
+      dataType: guid
+      label: Student
+      column: 4
+      dataSource: Student
+    - fieldName: FeeType
+      dataType: string
+      label: Fee Type
+      column: 4
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: StudentId
+    dataType: guid
+    label: Student
+    column: 4
+    dataSource: Student
+  - fieldName: FeeType
+    dataType: string
+    label: Fee Type
+    column: 4
+  - fieldName: Amount
+    dataType: numeric
+    label: Amount
+    column: 4

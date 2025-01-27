@@ -1,0 +1,40 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: TotalMarks
+      dataType: numeric
+      label: Total Marks
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: ClassId
+      dataType: guid
+      required: false
+      label: Class
+      column: 4
+      dataSource: Class
+    - fieldName: Scores
+      dataType: string
+      label: Scores
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: ClassId
+    dataType: guid
+    label: Class
+    column: 4
+    dataSource: Class
+  - fieldName: TotalMarks
+    dataType: numeric
+    label: Total Marks
+    column: 4

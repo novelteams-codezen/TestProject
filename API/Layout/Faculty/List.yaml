@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Email
+      dataType: String
+      label: Email
+      column: 4
+    - fieldName: PhoneNumber
+      dataType: String
+      label: Phone Number
+      column: 4
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: Email
+    dataType: String
+    label: Email
+    column: 4

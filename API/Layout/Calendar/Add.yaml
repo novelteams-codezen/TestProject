@@ -1,0 +1,25 @@
+- label: Calendar details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    label: Name
+    column: 2
+  - fieldName: Description
+    dataType: string
+    required: false
+    label: Description
+    column: 2
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User

@@ -1,0 +1,31 @@
+- label: Review details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: EmployeeId
+    dataType: guid
+    required: false
+    label: Employee
+    column: 2
+    dataSource: Employee
+  - fieldName: ReviewDate
+    dataType: datetime
+    required: false
+    label: Review Date
+    column: 2
+  - fieldName: Rating
+    dataType: numeric
+    required: false
+    label: Rating
+    column: 2
+  - fieldName: Comments
+    dataType: string
+    required: false
+    label: Comments
+    column: 2

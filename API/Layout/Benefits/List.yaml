@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: HealthInsurance
+      dataType: String
+      label: Health Insurance
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: RetirementPlan
+      dataType: String
+      label: Retirement Plan
+      column: 4
+    - fieldName: PaidTimeOff
+      dataType: Numeric
+      label: Paid Time Off
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: HealthInsurance
+    dataType: String
+    label: Health Insurance
+    column: 4
+  - fieldName: RetirementPlan
+    dataType: String
+    label: Retirement Plan
+    column: 4
+  - fieldName: PaidTimeOff
+    dataType: Numeric
+    label: Paid Time Off
+    column: 4

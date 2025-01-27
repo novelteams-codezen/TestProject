@@ -1,0 +1,42 @@
+- name: Payment details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: BillingId
+    dataType: guid
+    required: false
+    length: 
+    label: Billing
+    column: 2
+    dataSource: Billing
+  - fieldName: Amount
+    dataType: numeric
+    required: false
+    length: 
+    label: Amount
+    column: 2
+  - fieldName: Date
+    dataType: datetime
+    required: false
+    label: Date
+    column: 2
+- name: Audit details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: Updated On
+    column: 2

@@ -1,0 +1,33 @@
+- name: Notice details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Title
+    dataType: string
+    required: false
+    length: 100
+    label: Title
+    column: 4
+  - fieldName: Description
+    dataType: string
+    required: false
+    length: 500
+    label: Description
+    column: 4
+  - fieldName: PostedDate
+    dataType: datetime
+    required: false
+    label: Posted Date
+    column: 4
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 4
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 4
+    dataSource: User

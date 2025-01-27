@@ -1,0 +1,31 @@
+- name: Schedule details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: CourseId
+    dataType: guid
+    required: false
+    label: Course
+    column: 2
+    dataSource: Course
+  - fieldName: StartTime
+    dataType: datetime
+    required: false
+    label: Start Time
+    column: 2
+  - fieldName: EndTime
+    dataType: datetime
+    required: false
+    label: End Time
+    column: 2
+  - fieldName: Days
+    dataType: string
+    required: false
+    label: Days
+    column: 2

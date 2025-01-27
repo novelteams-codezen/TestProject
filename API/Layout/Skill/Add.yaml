@@ -1,0 +1,31 @@
+- label: Skill details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: false
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Description
+    dataType: String
+    required: false
+    length: 100
+    label: Description
+    column: 2
+- label: Audit information
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: DateTime
+    required: false
+    label: Created on
+    column: 2
+  - fieldName: CreatedBy
+    dataType: Guid
+    required: false
+    label: Created by
+    column: 2
+    dataSource: User

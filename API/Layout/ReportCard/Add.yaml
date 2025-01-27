@@ -1,0 +1,27 @@
+- name: Report card details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: ClassId
+    dataType: guid
+    required: false
+    label: Class
+    column: 2
+    dataSource: Class
+  - fieldName: Scores
+    dataType: string
+    required: false
+    length: 255
+    label: Scores
+    column: 2
+  - fieldName: TotalMarks
+    dataType: numeric
+    required: false
+    label: Total Marks
+    column: 2

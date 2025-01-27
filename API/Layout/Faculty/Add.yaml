@@ -1,0 +1,22 @@
+- name: Faculty details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Email
+    dataType: string
+    required: false
+    length: 50
+    label: Email
+    column: 2
+  - fieldName: PhoneNumber
+    dataType: string
+    required: false
+    length: 20
+    label: Phone Number
+    column: 2

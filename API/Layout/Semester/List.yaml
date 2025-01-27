@@ -1,0 +1,34 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StartDate
+      dataType: datetime
+      label: Start Date
+      column: 4
+    - fieldName: EndDate
+      dataType: datetime
+      label: End Date
+      column: 4
+    - fieldName: AcademicYearId
+      dataType: guid
+      required: false
+      label: Academic Year
+      column: 4
+      dataSource: AcademicYear
+filter:
+  fields:
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4
+  - fieldName: AcademicYearId
+    dataType: guid
+    label: Academic Year
+    column: 4
+    dataSource: AcademicYear

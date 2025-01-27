@@ -1,0 +1,28 @@
+- label: Chat details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Message
+    dataType: string
+    required: false
+    length: None
+    label: Message
+    column: 2
+  - fieldName: SenderId
+    dataType: guid
+    required: false
+    label: Sender
+    column: 2
+    dataSource: User
+  - fieldName: RecipientId
+    dataType: guid
+    required: false
+    label: Recipient
+    column: 2
+    dataSource: User

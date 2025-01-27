@@ -1,0 +1,29 @@
+- label: Contact information
+  type: section
+  column: 4
+  fields:
+  - fieldName: FirstName
+    dataType: string
+    required: false
+    label: First Name
+    column: 2
+  - fieldName: LastName
+    dataType: string
+    required: false
+    label: Last Name
+    column: 2
+  - fieldName: Email
+    dataType: string
+    required: false
+    label: Email
+    column: 2
+  - fieldName: Phone
+    dataType: string
+    required: false
+    label: Phone
+    column: 2
+  - fieldName: Address
+    dataType: string
+    required: false
+    label: Address
+    column: 4

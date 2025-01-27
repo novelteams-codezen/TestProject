@@ -1,0 +1,28 @@
+- name: Transcript details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: StudentId
+    dataType: guid
+    required: false
+    label: Student
+    column: 2
+    dataSource: Student
+  - fieldName: CourseId
+    dataType: guid
+    required: false
+    label: Course
+    column: 2
+    dataSource: Course
+  - fieldName: GradeId
+    dataType: guid
+    required: false
+    label: Grade
+    column: 2
+    dataSource: Grade

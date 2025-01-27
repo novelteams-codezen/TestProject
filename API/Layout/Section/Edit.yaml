@@ -1,0 +1,36 @@
+- name: Section details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 4
+- name: Metadata
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: false
+    label: CreatedOn
+    column: 4
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: CreatedBy
+    column: 4
+    dataSource: User
+  - fieldName: UpdatedOn
+    dataType: datetime
+    required: false
+    label: UpdatedOn
+    column: 4
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: UpdatedBy
+    column: 4
+    dataSource: User

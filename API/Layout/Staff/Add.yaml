@@ -1,0 +1,32 @@
+- name: Essential information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 2
+  - fieldName: Designation
+    dataType: string
+    required: false
+    length: 50
+    label: Designation
+    column: 2
+- name: Contact information
+  type: section
+  column: 4
+  fields:
+  - fieldName: PhoneNumber
+    dataType: string
+    required: false
+    length: 20
+    label: Phone number
+    column: 2
+  - fieldName: Email
+    dataType: string
+    required: false
+    length: 50
+    label: Email
+    column: 2

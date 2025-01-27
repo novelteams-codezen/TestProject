@@ -1,0 +1,16 @@
+- name: Library details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 50
+    label: Name
+    column: 4
+  - fieldName: Location
+    dataType: string
+    required: false
+    length: 100
+    label: Location
+    column: 4

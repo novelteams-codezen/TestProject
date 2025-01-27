@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: DueDate
+      dataType: datetime
+      label: Due Date
+      column: 4
+    - fieldName: DiscountId
+      dataType: guid
+      required: false
+      label: Discount
+      column: 4
+      dataSource: Discount
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: Amount
+    dataType: numeric
+    label: Amount
+    column: 2
+  - fieldName: DueDate
+    dataType: datetime
+    label: Due Date
+    column: 2
+  - fieldName: DiscountId
+    dataType: guid
+    required: false
+    label: Discount
+    column: 2
+    dataSource: Discount

@@ -1,0 +1,27 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: LastName
+      dataType: string
+      label: Last name
+      column: 4
+    - fieldName: Subject
+      dataType: string
+      label: Subject
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4
+  - fieldName: LastName
+    dataType: string
+    label: Last name
+    column: 4

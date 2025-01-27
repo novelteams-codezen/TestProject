@@ -1,0 +1,25 @@
+- name: Teacher details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    length: 100
+    label: Name
+    column: 4
+  - fieldName: FirstName
+    dataType: string
+    required: false
+    label: First name
+    column: 2
+  - fieldName: LastName
+    dataType: string
+    required: false
+    label: Last name
+    column: 2
+  - fieldName: Subject
+    dataType: string
+    required: false
+    label: Subject
+    column: 2
